@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "jasmine": "^3.6.3",
+    "jasmine-ts-console-reporter": "^3.1.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  }
+}
