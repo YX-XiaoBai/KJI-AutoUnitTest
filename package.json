@@ -1,7 +1,7 @@
 {
   "name": "sdk-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Introduction",
   "main": "karma.conf.js",
   "directories": {
     "test": "test"
@@ -15,8 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/YX-XiaoBai/sdk-testing.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "YX-XiaoBai",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/YX-XiaoBai/sdk-testing/issues"
   },
