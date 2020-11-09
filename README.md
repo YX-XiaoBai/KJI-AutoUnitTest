@@ -54,14 +54,20 @@ A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](
 
 ### 1.Installation
 
-`npm install`
+```bash
+npm install
+```
 
 ### 2.Execute Karma Unittest
 
-`karma start karma.conf.js`
+```bash
+karma start karma.conf.js
+```
 
 ### 3.Check Istanbul Code-Coverage
 
-`open build/reports/coverage/report-html/index.html`
+```bash
+open build/reports/coverage/report-html/index.html
+```
 
-For more information on Karma see the [homepage](https://github.com/YX-XiaoBai)
+For more information about project see the [homepage](https://github.com/YX-XiaoBai/KJI-AutoUnitTest)
