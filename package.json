@@ -1,5 +1,5 @@
 {
-  "name": "sdk-testing",
+  "name": "kji-auto-unittest-package",
   "version": "1.0.0",
   "description": "## Introduction",
   "main": "karma.conf.js",
