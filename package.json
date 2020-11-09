@@ -7,7 +7,13 @@
     "test": "test"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.6.3",
+    "karma": "^5.2.3",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +25,7 @@
   "author": "YX-XiaoBai",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YX-XiaoBai/sdk-testing/issues"
+    "url": "https://github.com/YX-XiaoBai/KJI-AutoUnitTest/issues"
   },
-  "homepage": "https://github.com/YX-XiaoBai/sdk-testing#readme"
+  "homepage": "https://github.com/YX-XiaoBai/KJI-AutoUnitTest#readme"
 }

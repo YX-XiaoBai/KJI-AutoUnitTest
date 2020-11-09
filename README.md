@@ -2,12 +2,49 @@
 
 ## Introduction
 
-基于 Karma + Jasmine + Istanbul + Node.js 实现的自动化单元测试框架
+Based on [Karma](https://github.com/karma-runner/karma) + [Jasmine](https://github.com/jasmine/jasmine) + [Istanbul](https://github.com/gotwarlost/istanbul)+ [Node.js](https://github.com/nodejs/node) Implementation of automated unit testing framework.
+
+## Table of Contents
+
+- [KJI-AutoUnitTest](#kji-autounittest)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+    - [Karma](#karma)
+    - [Jasmine](#jasmine)
+    - [Istanbul](#istanbul)
+    - [Node.js](#nodejs)
+  - [Usage](#usage)
+    - [1.Installation](#1installation)
+    - [2.Execute Karma Unittest](#2execute-karma-unittest)
+    - [3.Check Istanbul Code-Coverage](#3check-istanbul-code-coverage)
 
 ### Karma
 
+A simple tool that allows you to execute JavaScript code in multiple real browsers.
+The main purpose of [Karma](https://github.com/karma-runner/karma) is to make your test-driven development easy, fast, and fun.
+
 ### Jasmine
+
+A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](https://github.com/jasmine/jasmine) testing framework.
 
 ### Istanbul
 
+[Istanbul](https://github.com/gotwarlost/istanbul) is a JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.
+
 ### Node.js
+
+[Node.js](https://github.com/nodejs/node) is an open-source, cross-platform, JavaScript runtime environment. It executes JavaScript code outside of a browser. For more information on using [Node.js](https://github.com/nodejs/node), see the [Node.js Website](https://nodejs.org/).
+
+## Usage
+
+### 1.Installation
+
+`npm install`
+
+### 2.Execute Karma Unittest
+
+`karma start karma.conf.js`
+
+### 3.Check Istanbul Code-Coverage
+
+`open coverage/Chrome/index.html`
