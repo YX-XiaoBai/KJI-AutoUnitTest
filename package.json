@@ -1,9 +1,24 @@
 {
-  "devDependencies": {
-    "jasmine": "^3.6.3",
-    "jasmine-ts-console-reporter": "^3.1.1"
+  "name": "sdk-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
   },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "jasmine"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YX-XiaoBai/sdk-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YX-XiaoBai/sdk-testing/issues"
+  },
+  "homepage": "https://github.com/YX-XiaoBai/sdk-testing#readme"
 }
