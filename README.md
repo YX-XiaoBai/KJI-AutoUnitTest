@@ -62,6 +62,6 @@ A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](
 
 ### 3.Check Istanbul Code-Coverage
 
-`open coverage/Chrome/index.html`
+`open build/reports/coverage/report-html/index.html`
 
 For more information on Karma see the [homepage](https://github.com/YX-XiaoBai)
