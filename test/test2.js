@@ -1,27 +1,3 @@
-// describe("A test suite for SchoolService", function () {
-//     var schoolService = new SchoolService();
-//     it("Spec test 1, test the getTeachers function", function () {
-//         var teachers = schoolService.getTeachers();
-//         expect(teachers).not.toBe(null);
-//         expect(teachers.length).toEqual(5);
-//     });
-//     it("Spec test 2, test the getStudents function", function () {
-//         var students = schoolService.getStudents();
-//         expect(students).not.toBe(null);
-//         expect(students.length).toEqual(10);
-//     });
-//     it("Spec test 3, test the getTeacher function", function () {
-//         var teacher = schoolService.getTeacher("011");
-//         expect(teacher).not.toBe(null);
-//         expect(teacher.name).toMatch(/teacher/);
-//         expect(teacher.name).toMatch("teacher");
-//         expect(teacher.name).not.toMatch(/people/);
-//         var teacher6 = schoolService.getTeacher("016");
-//         expect(teacher6).toBe(null);
-//     });
-// });
-
-// 上方代码teachers与students对象重复出现
 // 使用beforeEach/afterEach优化测试代码
 describe("A test suite for SchoolService", function () {
     var schoolService = new SchoolService();
