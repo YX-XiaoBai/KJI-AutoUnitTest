@@ -19,6 +19,23 @@
 
 Based on [Karma](https://github.com/karma-runner/karma) + [Jasmine](https://github.com/jasmine/jasmine) + [Istanbul](https://github.com/gotwarlost/istanbul)+ [Node.js](https://github.com/nodejs/node) Implementation of automated unit testing framework.
 
+Features:
+
+- Support multiple test frameworks
+  - [Jasmine](https://github.com/jasmine/jasmine)
+  - [mocha](https://github.com/mochajs/mocha)
+  - [chai](https://github.com/chaijs/chai)
+- Multiple reports presentation
+  - jasmine-html-reporter
+  - karma-coverage
+- Running test cases on multiple browsers
+  - [Chrome](https://github.com/browserless/chrome)
+  - [Firefox](https://github.com/mozilla-mobile/firefox-ios)
+  - IE
+- Support multiple continuous integration frameworks
+  - [jenkins](https://github.com/jenkinsci/jenkins)
+- Simple, fast and funny
+
 ## 🌈 Table of Contents
 
 - [KJI-AutoUnitTest 🚀](#kji-autounittest-)
