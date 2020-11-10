@@ -80,6 +80,8 @@ open build/reports/coverage/report-html/index.html
 
 Here is picture of result, include statement coverage, branches coverage, functions coverage and lines coverage:
 
+![new_coverage](./new_coverage.jpg)
+
 ![coverage](./coverage.jpg)
 
 For more information about project see the [homepage](https://github.com/YX-XiaoBai/KJI-AutoUnitTest)
@@ -103,8 +105,12 @@ Here are some plugins for the project:
 
 Coverage Report:
 
-| File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     |
-| --------- | ------- | -------- | ------- | ------- | --------------------- |
-| All files | 51.61   | 40       | 77.78   | 51.79   |
-| index.js  | 100     | 100      | 100     | 100     |
-| index2.js | 49.15   | 25       | 75      | 50      | 3-6,26-38,55-62,67-73 |
+-----------------------
+| File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     |
+| ------------- | ------- | -------- | ------- | ------- | --------------------- |
+| All files     | 57.75   | 57.14    | 84.62   | 58.46   |
+| src           | 51.61   | 40       | 77.78   | 51.79   |
+| index.js      | 100     | 100      | 100     | 100     |
+| index2.js     | 49.15   | 25       | 75      | 50      | 3-6,26-38,55-62,67-73 |
+| src/lib       | 100     | 100      | 100     | 100     |
+| calculator.js | 100     | 100      | 100     | 100     |
