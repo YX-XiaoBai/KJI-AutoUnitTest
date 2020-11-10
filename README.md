@@ -78,7 +78,7 @@ If it doesn't show up as expected, please try it <http://localhost:9876/>
 open build/reports/coverage/report-html/index.html
 ```
 
-Here is picture of result, include statement coverage, branches coverage, functions coverage and lines coverage:
+Here is picture of result, include statements coverage, branches coverage, functions coverage and lines coverage:
 
 ![new_coverage](./new_coverage.jpg)
 
