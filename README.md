@@ -1,4 +1,4 @@
-# KJI-AutoUnitTest🚀
+# KJI-AutoUnitTest 🚀
 
 ![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
@@ -15,23 +15,25 @@
 
 > Thank for the [Jasmine](https://jasmine.github.io/) testing framework.
 
-## 🌈Introduction
+## 🌈 Introduction
 
 Based on [Karma](https://github.com/karma-runner/karma) + [Jasmine](https://github.com/jasmine/jasmine) + [Istanbul](https://github.com/gotwarlost/istanbul)+ [Node.js](https://github.com/nodejs/node) Implementation of automated unit testing framework.
 
-## 🌈Table of Contents
+## 🌈 Table of Contents
 
-- [KJI-AutoUnitTest🚀](#kji-autounittest)
-  - [🌈Introduction](#introduction)
-  - [🌈Table of Contents](#table-of-contents)
+- [KJI-AutoUnitTest 🚀](#kji-autounittest-)
+  - [🌈 Introduction](#-introduction)
+  - [🌈 Table of Contents](#-table-of-contents)
     - [Karma](#karma)
     - [Jasmine](#jasmine)
     - [Istanbul](#istanbul)
     - [Node.js](#nodejs)
-  - [🌈Usage](#usage)
+  - [🌈 Usage](#-usage)
     - [1.Installation](#1installation)
     - [2.Execute Karma Unittest](#2execute-karma-unittest)
     - [3.Check Istanbul Code-Coverage](#3check-istanbul-code-coverage)
+  - [🌈 Plugins](#-plugins)
+  - [🌈 Some examples of results](#-some-examples-of-results)
 
 ### Karma
 
@@ -50,7 +52,7 @@ A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](
 
 [Node.js](https://github.com/nodejs/node) is an open-source, cross-platform, JavaScript runtime environment. It executes JavaScript code outside of a browser. For more information on using [Node.js](https://github.com/nodejs/node), see the [Node.js Website](https://nodejs.org/).
 
-## 🌈Usage
+## 🌈 Usage
 
 ### 1.Installation
 
@@ -64,10 +66,45 @@ npm install
 karma start karma.conf.js
 ```
 
+A chrome web with url will be automatically appears.
+
+If it doesn't show up as expected, please try it <http://localhost:9876/>
+
+![karma_idel](./karma_idel.png)
+
 ### 3.Check Istanbul Code-Coverage
 
 ```bash
 open build/reports/coverage/report-html/index.html
 ```
 
+Here is picture of result, include statement coverage, branches coverage, functions coverage and lines coverage:
+
+![coverage](./coverage.jpg)
+
 For more information about project see the [homepage](https://github.com/YX-XiaoBai/KJI-AutoUnitTest)
+
+## 🌈 Plugins
+
+Here are some plugins for the project:
+
+```json
+"devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.6.3",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1"
+}
+```
+
+## 🌈 Some examples of results
+
+Coverage Report:
+
+| File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s     |
+| --------- | ------- | -------- | ------- | ------- | --------------------- |
+| All files | 51.61   | 40       | 77.78   | 51.79   |
+| index.js  | 100     | 100      | 100     | 100     |
+| index2.js | 49.15   | 25       | 75      | 50      | 3-6,26-38,55-62,67-73 |

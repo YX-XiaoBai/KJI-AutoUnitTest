@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="56" lines-covered="29" line-rate="0.5179" branches-valid="10" branches-covered="4" branch-rate="0.4" timestamp="1604937368948" complexity="0" version="0.1">
+<coverage lines-valid="56" lines-covered="29" line-rate="0.5179" branches-valid="10" branches-covered="4" branch-rate="0.4" timestamp="1604974153628" complexity="0" version="0.1">
   <sources>
     <source>/Users/lidean/github_project/sdk-testing</source>
   </sources>
@@ -55,9 +55,9 @@
             <line number="52" hits="1"/>
           </lines>
         </method>
-        <method name="(anonymous_7)" hits="35786" signature="()V">
+        <method name="(anonymous_7)" hits="35782" signature="()V">
           <lines>
-            <line number="64" hits="35786"/>
+            <line number="64" hits="35782"/>
           </lines>
         </method>
       </methods>
@@ -109,8 +109,8 @@
         <line number="59" hits="0" branch="false"/>
         <line number="62" hits="0" branch="false"/>
         <line number="64" hits="3" branch="false"/>
-        <line number="65" hits="35786" branch="false"/>
-        <line number="66" hits="35786" branch="false"/>
+        <line number="65" hits="35782" branch="false"/>
+        <line number="66" hits="35782" branch="false"/>
         <line number="67" hits="0" branch="false"/>
         <line number="68" hits="0" branch="false"/>
         <line number="69" hits="0" branch="true" condition-coverage="0% (0/4)"/>
