@@ -42,7 +42,7 @@ The main purpose of [Karma](https://github.com/karma-runner/karma) is to make yo
 
 ### Jasmine
 
-A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](https://github.com/jasmine/jasmine) testing framework.
+A [Karma](https://github.com/karma-runner/karma) plugin - adapter for [Jasmine](https://github.com/jasmine/jasmine) testing framework. Simple JavaScript testing framework for browsers and node.js
 
 ### Istanbul
 
